@@ -7,7 +7,6 @@ class TrackFormChanges {
         options = { ...defaults, ...options };
 
         this.hasChangesClass = options.hasChangesClass;
-        this.alertMessage = options.alertMessage;
 
         window.addEventListener("load", this.trackFormChanges(forms));
         window.addEventListener("beforeunload", (event) => {
