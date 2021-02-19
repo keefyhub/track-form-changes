@@ -16,10 +16,7 @@ class TrackFormChanges {
                     event.returnValue = "";
 
                     console.log("form has changes");
-                    return true;
                 }
-
-                return false;
             });
         });
 
